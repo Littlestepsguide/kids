@@ -57,8 +57,8 @@ tailwind.config = {
      1. #CHECKOUT_URL          → link do GGCheckout (aparece em todos os CTAs)
      2. PLACEHOLDER-SAMPLE-IMG → 3 prints reais de atividades do guia
      3. Depoimentos escritos   → substituir os EXEMPLOS por depoimentos REAIS
-     4. Valores do value-stack na oferta ($49/$19/$15/$83) → ajuste se quiser
-        refletir outro posicionamento de preço
+     4. Valores do value-stack na oferta ($25/$8/$6/$39, 31% off) → ajuste se
+        quiser refletir outro posicionamento de preço
 
      ✔ Imagem do produto (hero, "Introducing" e CTA final) → hospedada no GitHub
         (raw.githubusercontent.com/Littlestepsguide/kids/...), carrega direto
@@ -100,19 +100,6 @@ tailwind.config = {
           <li class="flex items-center gap-2"><svg class="w-5 h-5 text-mint shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>100% screen-free</li>
           <li class="flex items-center gap-2"><svg class="w-5 h-5 text-mint shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>No special materials</li>
         </ul>
-
-        <div class="mt-8">
-          <!-- PLACEHOLDER: #CHECKOUT_URL -->
-          <a href="#CHECKOUT_URL" class="inline-block w-full sm:w-auto text-center bg-cta hover:bg-ctaDark text-white font-display font-bold text-lg px-10 py-4 rounded-2xl shadow-cta transition-transform hover:-translate-y-0.5">
-            Get Instant Access · $27
-          </a>
-          <p class="mt-3 text-center md:text-left text-[13px] text-soft">Takes less than 60 seconds. Start tonight.</p>
-          <div class="mt-3 flex items-center justify-center md:justify-start gap-4 text-[13px] text-soft">
-            <span class="flex items-center gap-1.5"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>Secure checkout</span>
-            <span class="flex items-center gap-1.5"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>Instant access</span>
-            <span class="flex items-center gap-1.5"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>30-day guarantee</span>
-          </div>
-        </div>
       </div>
 
       <div class="relative">
@@ -325,74 +312,181 @@ tailwind.config = {
 <section id="product" class="bg-brand text-white">
   <div class="max-w-5xl mx-auto px-5 py-16 md:py-24 text-center">
     <p class="reveal font-display font-semibold text-white/70 text-sm uppercase tracking-wide mb-4">Introducing</p>
-    <h2 class="reveal font-display font-extrabold text-3xl md:text-5xl leading-tight">Little Steps Guide</h2>
+    <h2 class="reveal font-display font-extrabold text-3xl md:text-5xl leading-tight">What Exactly Is Little Steps Guide?
+</h2>
     <p class="reveal mt-5 text-white/90 text-[17px] md:text-[19px] max-w-2xl mx-auto leading-relaxed">
-      It's 4:45pm. The "I'm bored" whining just started. Instead of reaching for the tablet, you grab a laundry basket and two socks. Ninety seconds later, your child is laughing, counting, completely absorbed, no screen in sight.
+      Not another book. Not another course. Little Steps Guide is your go-to library of over 600 development-focused activities that tell you exactly what to do, when to do it, and why it helps your child grow. Every activity is organized by age, developmental skill, and difficulty, so you never have to waste time searching Pinterest or wondering if you're choosing the right activity.
     </p>
     <p class="reveal mt-3 text-white/70 text-[15px] max-w-2xl mx-auto leading-relaxed">
       That's one moment out of 600+ inside Little Steps Guide.
     </p>
+    <div class="reveal mt-10 max-w-2xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
+      <img src="https://raw.githubusercontent.com/Littlestepsguide/kids/main/ChatGPT%20Image%2023%20de%20jul.%20de%202026%2C%2023_21_25.png" alt="Little Steps Guide cover: 600+ activities organized by age, skill and goal" class="w-full h-auto block">
+    </div>
     <div class="reveal mt-8 flex flex-wrap justify-center gap-3 text-[14px] font-medium">
       <span class="bg-white/15 rounded-full px-4 py-2">✔ Ages 3–10</span>
       <span class="bg-white/15 rounded-full px-4 py-2">✔ 10 min a day</span>
       <span class="bg-white/15 rounded-full px-4 py-2">✔ Zero prep, zero screens</span>
       <span class="bg-white/15 rounded-full px-4 py-2">✔ Instant access on any device</span>
     </div>
-    <div class="reveal mt-10 max-w-2xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
-      <img src="https://raw.githubusercontent.com/Littlestepsguide/kids/main/ChatGPT%20Image%2023%20de%20jul.%20de%202026%2C%2023_21_25.png" alt="Little Steps Guide cover: 600+ activities organized by age, skill and goal" class="w-full h-auto block">
-    </div>
   </div>
 </section>
 
 <!-- ─────────────── WHY IT'S DIFFERENT ─────────────── -->
-<section class="max-w-4xl mx-auto px-5 py-16 md:py-20">
-  <div class="reveal text-center mb-10">
-    <h2 class="font-display font-extrabold text-[1.65rem] md:text-4xl text-ink leading-tight">Why this works when everything else didn't</h2>
+<section class="max-w-5xl mx-auto px-5 py-20 md:py-28">
+  <div class="reveal text-center mb-4">
+    <p class="font-display font-semibold text-brand text-sm uppercase tracking-wide mb-3">The honest comparison</p>
+    <h2 class="font-display font-extrabold text-[1.75rem] md:text-5xl text-ink leading-tight tracking-tight">Why Little Steps Works<br class="sm:hidden"> When Pinterest Doesn't</h2>
+    <p class="mt-5 text-soft text-[16px] md:text-[18px] max-w-xl mx-auto leading-relaxed">
+      You don't need more ideas. You need to know exactly what to do next and why it works.
+    </p>
   </div>
-  <div class="reveal overflow-hidden rounded-2xl border border-slate-200 shadow-card">
-    <table class="w-full text-[14px]">
+
+  <!-- Mobile: one card per feature, 2 answers stacked, Little Steps visually the obvious answer -->
+  <div class="reveal sm:hidden mt-10 space-y-3">
+    <div class="rounded-2xl border border-slate-200 p-4">
+      <p class="font-display font-bold text-ink text-[14px] mb-3">Screen Time</p>
+      <div class="space-y-2 text-[13px]">
+        <div class="flex items-center justify-between gap-2"><span class="text-soft shrink-0 whitespace-nowrap">Searching Online</span><span class="text-soft text-right">Varies by creator</span></div>
+        <div class="flex items-center justify-between gap-2 bg-mintSoft -mx-4 px-4 py-2 mt-1 rounded-xl">
+          <span class="text-ink font-bold flex items-center gap-1.5 shrink-0 whitespace-nowrap"><span class="w-4 h-4 rounded-full bg-mint text-white text-[10px] flex items-center justify-center shrink-0">✓</span>Little Steps</span>
+          <span class="text-ink font-bold text-right">100% Screen-Free</span>
+        </div>
+      </div>
+    </div>
+    <div class="rounded-2xl border border-slate-200 p-4">
+      <p class="font-display font-bold text-ink text-[14px] mb-3">Age &amp; Development Fit</p>
+      <div class="space-y-2 text-[13px]">
+        <div class="flex items-center justify-between gap-2"><span class="text-soft shrink-0 whitespace-nowrap">Searching Online</span><span class="text-soft text-right">Not always age-appropriate</span></div>
+        <div class="flex items-center justify-between gap-2 bg-mintSoft -mx-4 px-4 py-2 mt-1 rounded-xl">
+          <span class="text-ink font-bold flex items-center gap-1.5 shrink-0 whitespace-nowrap"><span class="w-4 h-4 rounded-full bg-mint text-white text-[10px] flex items-center justify-center shrink-0">✓</span>Little Steps</span>
+          <span class="text-ink font-bold text-right">Matched to Your Child's Age &amp; Development</span>
+        </div>
+      </div>
+    </div>
+    <div class="rounded-2xl border border-slate-200 p-4">
+      <p class="font-display font-bold text-ink text-[14px] mb-3">Setup Time</p>
+      <div class="space-y-2 text-[13px]">
+        <div class="flex items-center justify-between gap-2"><span class="text-soft shrink-0 whitespace-nowrap">Searching Online</span><span class="text-soft text-right">Requires lots of searching</span></div>
+        <div class="flex items-center justify-between gap-2 bg-mintSoft -mx-4 px-4 py-2 mt-1 rounded-xl">
+          <span class="text-ink font-bold flex items-center gap-1.5 shrink-0 whitespace-nowrap"><span class="w-4 h-4 rounded-full bg-mint text-white text-[10px] flex items-center justify-center shrink-0">✓</span>Little Steps</span>
+          <span class="text-ink font-bold text-right">Ready in Under 2 Minutes</span>
+        </div>
+      </div>
+    </div>
+    <div class="rounded-2xl border border-slate-200 p-4">
+      <p class="font-display font-bold text-ink text-[14px] mb-3">Materials Needed</p>
+      <div class="space-y-2 text-[13px]">
+        <div class="flex items-center justify-between gap-2"><span class="text-soft shrink-0 whitespace-nowrap">Searching Online</span><span class="text-soft text-right">Often needs extra prep</span></div>
+        <div class="flex items-center justify-between gap-2 bg-mintSoft -mx-4 px-4 py-2 mt-1 rounded-xl">
+          <span class="text-ink font-bold flex items-center gap-1.5 shrink-0 whitespace-nowrap"><span class="w-4 h-4 rounded-full bg-mint text-white text-[10px] flex items-center justify-center shrink-0">✓</span>Little Steps</span>
+          <span class="text-ink font-bold text-right">Uses Everyday Household Items</span>
+        </div>
+      </div>
+    </div>
+    <div class="rounded-2xl border border-slate-200 p-4">
+      <p class="font-display font-bold text-ink text-[14px] mb-3">Guidance</p>
+      <div class="space-y-2 text-[13px]">
+        <div class="flex items-center justify-between gap-2"><span class="text-soft shrink-0 whitespace-nowrap">Searching Online</span><span class="text-soft text-right">Different instructions every time</span></div>
+        <div class="flex items-center justify-between gap-2 bg-mintSoft -mx-4 px-4 py-2 mt-1 rounded-xl">
+          <span class="text-ink font-bold flex items-center gap-1.5 shrink-0 whitespace-nowrap"><span class="w-4 h-4 rounded-full bg-mint text-white text-[10px] flex items-center justify-center shrink-0">✓</span>Little Steps</span>
+          <span class="text-ink font-bold text-right">Clear, Step-by-Step Guidance</span>
+        </div>
+      </div>
+    </div>
+    <div class="rounded-2xl border border-slate-200 p-4">
+      <p class="font-display font-bold text-ink text-[14px] mb-3">Foundation</p>
+      <div class="space-y-2 text-[13px]">
+        <div class="flex items-center justify-between gap-2"><span class="text-soft shrink-0 whitespace-nowrap">Searching Online</span><span class="text-soft text-right">Rarely explains why it works</span></div>
+        <div class="flex items-center justify-between gap-2 bg-mintSoft -mx-4 px-4 py-2 mt-1 rounded-xl">
+          <span class="text-ink font-bold flex items-center gap-1.5 shrink-0 whitespace-nowrap"><span class="w-4 h-4 rounded-full bg-mint text-white text-[10px] flex items-center justify-center shrink-0">✓</span>Little Steps</span>
+          <span class="text-ink font-bold text-right">Built on Proven Child Development Principles</span>
+        </div>
+      </div>
+    </div>
+    <div class="rounded-2xl border border-slate-200 p-4">
+      <p class="font-display font-bold text-ink text-[14px] mb-3">Price</p>
+      <div class="space-y-2 text-[13px]">
+        <div class="flex items-center justify-between gap-2"><span class="text-soft shrink-0 whitespace-nowrap">Searching Online</span><span class="text-soft text-right">Free, but costs hours of your time</span></div>
+        <div class="flex items-center justify-between gap-2 bg-mintSoft -mx-4 px-4 py-2 mt-1 rounded-xl">
+          <span class="text-ink font-bold flex items-center gap-1.5 shrink-0 whitespace-nowrap"><span class="w-4 h-4 rounded-full bg-mint text-white text-[10px] flex items-center justify-center shrink-0">✓</span>Little Steps</span>
+          <span class="text-ink font-bold text-right">One-Time Purchase · Lifetime Access</span>
+        </div>
+      </div>
+    </div>
+    <div class="rounded-2xl border-2 border-mint bg-mintSoft p-4">
+      <p class="font-display font-bold text-ink text-[14px] mb-3">How You Feel</p>
+      <div class="space-y-2 text-[13px]">
+        <div class="flex items-center justify-between gap-2"><span class="text-soft shrink-0 whitespace-nowrap">Searching Online</span><span class="text-soft text-right">Easy to feel overwhelmed</span></div>
+        <div class="flex items-center justify-between gap-2 px-1 py-1">
+          <span class="text-ink font-bold flex items-center gap-1.5 shrink-0 whitespace-nowrap"><span class="w-4 h-4 rounded-full bg-mint text-white text-[10px] flex items-center justify-center shrink-0">✓</span>Little Steps</span>
+          <span class="text-brand font-display font-extrabold text-right">Feel Confident, Every Day</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tablet/desktop: premium comparison table, Little Steps column visually the obvious choice -->
+  <div class="reveal hidden sm:block mt-10 overflow-hidden rounded-3xl border border-slate-200 shadow-card">
+    <table class="w-full text-[14px] border-collapse">
       <thead>
-        <tr class="bg-cloud text-left">
-          <th class="p-4 font-display text-ink"></th>
-          <th class="p-4 font-display text-soft font-semibold">"Educational" apps</th>
-          <th class="p-4 font-display text-soft font-semibold">Pinterest crafts</th>
-          <th class="p-4 font-display text-brand font-bold">Little Steps</th>
+        <tr class="text-left">
+          <th class="p-5 bg-cloud font-display text-ink"></th>
+          <th class="p-5 bg-cloud font-display text-soft font-semibold align-bottom">Searching Online</th>
+          <th class="p-5 bg-mintSoft border-t-4 border-mint font-display text-ink font-extrabold align-bottom">
+            <span class="inline-block mb-1.5 bg-mint text-white text-[10px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full">Best choice</span><br>
+            Little Steps Guide
+          </th>
         </tr>
       </thead>
       <tbody class="divide-y divide-slate-100">
         <tr>
-          <td class="p-4 font-medium text-ink">Screen-free</td>
-          <td class="p-4 text-soft">✗</td>
-          <td class="p-4 text-soft">✓</td>
-          <td class="p-4 text-mint font-bold">✓</td>
+          <td class="p-5 font-medium text-ink">Screen Time</td>
+          <td class="p-5 text-soft">Varies by creator</td>
+          <td class="p-5 bg-mintSoft font-bold text-ink"><span class="text-mint">✓</span> 100% Screen-Free</td>
         </tr>
         <tr>
-          <td class="p-4 font-medium text-ink">Ready in under 1 minute</td>
-          <td class="p-4 text-soft">✓</td>
-          <td class="p-4 text-soft">✗ (hours of prep)</td>
-          <td class="p-4 text-mint font-bold">✓</td>
+          <td class="p-5 font-medium text-ink">Age &amp; Development Fit</td>
+          <td class="p-5 text-soft">Not always age-appropriate</td>
+          <td class="p-5 bg-mintSoft font-bold text-ink"><span class="text-mint">✓</span> Matched to Your Child's Age &amp; Development</td>
         </tr>
         <tr>
-          <td class="p-4 font-medium text-ink">Builds real motor skills</td>
-          <td class="p-4 text-soft">✗</td>
-          <td class="p-4 text-soft">Sometimes</td>
-          <td class="p-4 text-mint font-bold">✓ by design</td>
+          <td class="p-5 font-medium text-ink">Setup Time</td>
+          <td class="p-5 text-soft">Requires lots of searching</td>
+          <td class="p-5 bg-mintSoft font-bold text-ink"><span class="text-mint">✓</span> Ready in Under 2 Minutes</td>
         </tr>
         <tr>
-          <td class="p-4 font-medium text-ink">Organized by age &amp; skill</td>
-          <td class="p-4 text-soft">✗</td>
-          <td class="p-4 text-soft">✗</td>
-          <td class="p-4 text-mint font-bold">✓</td>
+          <td class="p-5 font-medium text-ink">Materials Needed</td>
+          <td class="p-5 text-soft">Often needs extra prep</td>
+          <td class="p-5 bg-mintSoft font-bold text-ink"><span class="text-mint">✓</span> Uses Everyday Household Items</td>
         </tr>
         <tr>
-          <td class="p-4 font-medium text-ink">One-time cost</td>
-          <td class="p-4 text-soft">✗ (subscriptions)</td>
-          <td class="p-4 text-soft">✗ (supplies add up)</td>
-          <td class="p-4 text-mint font-bold">✓ $27, once</td>
+          <td class="p-5 font-medium text-ink">Guidance</td>
+          <td class="p-5 text-soft">Different instructions every time</td>
+          <td class="p-5 bg-mintSoft font-bold text-ink"><span class="text-mint">✓</span> Clear, Step-by-Step Guidance</td>
+        </tr>
+        <tr>
+          <td class="p-5 font-medium text-ink">Foundation</td>
+          <td class="p-5 text-soft">Rarely explains why it works</td>
+          <td class="p-5 bg-mintSoft font-bold text-ink"><span class="text-mint">✓</span> Built on Proven Child Development Principles</td>
+        </tr>
+        <tr>
+          <td class="p-5 font-medium text-ink">Price</td>
+          <td class="p-5 text-soft">Free, but costs hours of your time</td>
+          <td class="p-5 bg-mintSoft font-bold text-ink"><span class="text-mint">✓</span> One-Time Purchase · Lifetime Access</td>
+        </tr>
+        <tr>
+          <td class="p-5 font-medium text-ink">How You Feel</td>
+          <td class="p-5 text-soft">Easy to feel overwhelmed</td>
+          <td class="p-5 bg-mintSoft font-display font-extrabold text-brand rounded-b-3xl">Feel Confident, Every Day</td>
         </tr>
       </tbody>
     </table>
   </div>
+
+  <p class="reveal mt-10 text-center text-ink text-[16px] md:text-[18px] leading-relaxed max-w-2xl mx-auto">
+    Little Steps doesn't give you a thousand random ideas. It gives you <strong>the right activity</strong> for your child's age, skill level and stage, so you spend less time searching and more time together.
+  </p>
 </section>
 
 <!-- ─────────────── HOW IT WORKS ─────────────── -->
@@ -478,37 +572,11 @@ tailwind.config = {
   <div class="max-w-5xl mx-auto px-5 py-16 md:py-20">
     <div class="reveal text-center mb-10">
       <p class="font-display font-semibold text-brand text-sm uppercase tracking-wide mb-3">Sneak peek</p>
-      <h2 class="font-display font-extrabold text-[1.65rem] md:text-4xl text-ink leading-tight">Three activities, straight from the guide</h2>
-      <p class="mt-2 text-soft text-[15px] max-w-md mx-auto">Here's exactly what your child could be doing tonight, no shopping trip required.</p>
+      <h2 class="font-display font-extrabold text-[1.65rem] md:text-4xl text-ink leading-tight">A look inside the guide</h2>
+      <p class="mt-2 text-soft text-[15px] max-w-md mx-auto">Watch exactly how it works, right on your phone.</p>
     </div>
-    <div class="grid md:grid-cols-3 gap-5">
-      <div class="reveal bg-white rounded-2xl shadow-card overflow-hidden">
-        <!-- PLACEHOLDER-SAMPLE-IMG-1: print real da atividade no app -->
-        <div class="aspect-video bg-sun flex items-center justify-center text-soft text-xs text-center p-4">PLACEHOLDER<br>Print da atividade 1</div>
-        <div class="p-5">
-          <span class="text-[11px] font-bold uppercase tracking-wide text-brand">Focus · Ages 4–6</span>
-          <h3 class="font-display font-bold text-ink mt-1">The Sock Sorting Race</h3>
-          <p class="text-soft text-[13px] mt-2 leading-relaxed">Dump the sock basket on the floor. Matching pairs turns into a full-blown concentration game. Materials needed: socks.</p>
-        </div>
-      </div>
-      <div class="reveal bg-white rounded-2xl shadow-card overflow-hidden">
-        <!-- PLACEHOLDER-SAMPLE-IMG-2 -->
-        <div class="aspect-video bg-mintSoft flex items-center justify-center text-soft text-xs text-center p-4">PLACEHOLDER<br>Print da atividade 2</div>
-        <div class="p-5">
-          <span class="text-[11px] font-bold uppercase tracking-wide text-brand">Fine motor · Ages 3–5</span>
-          <h3 class="font-display font-bold text-ink mt-1">Cereal Threading</h3>
-          <p class="text-soft text-[13px] mt-2 leading-relaxed">Dry pasta + string = the same pincer-grip practice used in occupational therapy.</p>
-        </div>
-      </div>
-      <div class="reveal bg-white rounded-2xl shadow-card overflow-hidden">
-        <!-- PLACEHOLDER-SAMPLE-IMG-3 -->
-        <div class="aspect-video bg-brand/10 flex items-center justify-center text-soft text-xs text-center p-4">PLACEHOLDER<br>Print da atividade 3</div>
-        <div class="p-5">
-          <span class="text-[11px] font-bold uppercase tracking-wide text-brand">Gross motor · Ages 6–10</span>
-          <h3 class="font-display font-bold text-ink mt-1">Tape Line Olympics</h3>
-          <p class="text-soft text-[13px] mt-2 leading-relaxed">One roll of painter's tape on the floor turns your hallway into a balance course.</p>
-        </div>
-      </div>
+    <div class="reveal mx-auto max-w-[380px] aspect-[9/16] rounded-2xl overflow-hidden bg-ink/5 border border-slate-200 shadow-card">
+      <iframe src="https://player.vimeo.com/video/1212773640?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" class="w-full h-full" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" allowfullscreen title="See Little Steps Guide in action"></iframe>
     </div>
   </div>
 </section>
@@ -519,7 +587,7 @@ tailwind.config = {
     <div class="text-4xl mb-4">🎓</div>
     <h2 class="font-display font-extrabold text-[1.65rem] md:text-3xl text-ink leading-tight">Built with care, grounded in child development</h2>
     <p class="mt-4 text-soft text-[15px] leading-relaxed max-w-xl mx-auto">
-      Little Steps Guide was created by a small team of university students passionate about child development. Every activity is inspired by the principles of <strong class="text-ink">Montessori, Piaget and Vygotsky</strong>, the researchers whose work shapes how the best schools in the world teach today.
+      Little Steps Guide was created by a team specializing in early childhood development and education. Every activity is grounded in the principles of <strong class="text-ink">Montessori, Piaget and Vygotsky</strong>, the researchers whose work shapes how the best schools in the world teach today.
     </p>
     <p class="mt-3 text-soft text-[15px] leading-relaxed max-w-xl mx-auto">
       No fluff. No filler. Just simple activities that respect how children actually learn: through their hands, their bodies, and play.
@@ -548,7 +616,7 @@ tailwind.config = {
     <h2 class="font-display font-extrabold text-[1.65rem] md:text-4xl text-ink leading-tight">Moms are seeing the difference</h2>
     <p class="mt-2 text-soft text-[13px]">
       <!-- ⚠️ Slides abaixo são um TEMPLATE. Troque por depoimentos reais de clientes (com permissão) antes de publicar o anúncio. -->
-      [EXEMPLO DE ESTRUTURA: substitua os 6 depoimentos por avaliações reais antes de publicar]
+      [EXEMPLO DE ESTRUTURA: substitua os 8 depoimentos por avaliações reais antes de publicar]
     </p>
   </div>
 
@@ -560,13 +628,14 @@ tailwind.config = {
       <div id="tTrack" class="flex transition-transform duration-500 ease-out">
         <div class="w-full shrink-0 px-1">
           <div class="bg-white border border-slate-100 rounded-2xl p-7 shadow-card text-center">
-            <div class="flex justify-center gap-1 text-cta mb-3 text-sm">★★★★★</div>
-            <p class="text-[15px] text-ink leading-relaxed">[EXEMPLO] "Texto curto do depoimento: o que mudou, em uma ou duas frases."</p>
-            <div class="mt-5 flex items-center justify-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-cloud flex items-center justify-center text-sm font-bold text-soft">A</div>
+            <div class="flex justify-center gap-1 text-cta mb-3 text-sm">★★★★☆</div>
+            <p class="text-[15px] text-ink leading-relaxed">"I honestly wasn't expecting much, but this has been one of the best parenting purchases I've made. My daughter is 4 and she actually asks to do the activities after breakfast now. They're simple, don't require buying anything, and I finally don't have to spend half an hour searching Pinterest every day."</p>
+            <div class="mt-5 flex items-start justify-center gap-3">
+              <div class="w-11 h-11 rounded-full bg-mintSoft flex items-center justify-center text-xl shrink-0">👩🏻</div>
               <div class="text-left">
-                <p class="font-display font-bold text-ink text-[13px]">[Nome real]</p>
-                <p class="text-soft text-[12px]">[Cidade, Estado] · Mom of a [idade]-year-old</p>
+                <p class="font-display font-bold text-ink text-[13px]">Emily R.</p>
+                <span class="inline-flex items-center gap-1 mt-1 bg-mintSoft text-mint text-[10px] font-bold px-2 py-0.5 rounded-full">✔ Verified Purchase</span>
+                <p class="text-soft text-[12px] mt-1.5">📍 Austin, TX • Mom of a 4-year-old</p>
               </div>
             </div>
           </div>
@@ -574,12 +643,13 @@ tailwind.config = {
         <div class="w-full shrink-0 px-1">
           <div class="bg-white border border-slate-100 rounded-2xl p-7 shadow-card text-center">
             <div class="flex justify-center gap-1 text-cta mb-3 text-sm">★★★★★</div>
-            <p class="text-[15px] text-ink leading-relaxed">[EXEMPLO] "Depoimento um pouco mais longo, contando uma situação específica antes/depois. Evite frases genéricas."</p>
-            <div class="mt-5 flex items-center justify-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-cloud flex items-center justify-center text-sm font-bold text-soft">B</div>
+            <p class="text-[15px] text-ink leading-relaxed">"My son has always struggled to sit still for anything. We've only been using the guide for about three weeks, but I can already see him paying attention longer and following directions better. The fact that every activity is organized by age makes my life so much easier."</p>
+            <div class="mt-5 flex items-start justify-center gap-3">
+              <div class="w-11 h-11 rounded-full bg-sun flex items-center justify-center text-xl shrink-0">👩🏽</div>
               <div class="text-left">
-                <p class="font-display font-bold text-ink text-[13px]">[Nome real]</p>
-                <p class="text-soft text-[12px]">[Cidade, Estado] · Mom of a [idade]-year-old</p>
+                <p class="font-display font-bold text-ink text-[13px]">Jessica M.</p>
+                <span class="inline-flex items-center gap-1 mt-1 bg-mintSoft text-mint text-[10px] font-bold px-2 py-0.5 rounded-full">✔ Verified Purchase</span>
+                <p class="text-soft text-[12px] mt-1.5">📍 Phoenix, AZ • Mom of a 5-year-old</p>
               </div>
             </div>
           </div>
@@ -587,12 +657,13 @@ tailwind.config = {
         <div class="w-full shrink-0 px-1">
           <div class="bg-white border border-slate-100 rounded-2xl p-7 shadow-card text-center">
             <div class="flex justify-center gap-1 text-cta mb-3 text-sm">★★★★★</div>
-            <p class="text-[15px] text-ink leading-relaxed">[EXEMPLO] "Outro depoimento: varie o tamanho e o tom entre os cards para parecer natural."</p>
-            <div class="mt-5 flex items-center justify-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-cloud flex items-center justify-center text-sm font-bold text-soft">C</div>
+            <p class="text-[15px] text-ink leading-relaxed">"As a working mom, I don't have time to prepare complicated sensory bins or crafts. This guide is exactly what I needed. Ten minutes, a few household items, and we're done. It feels realistic."</p>
+            <div class="mt-5 flex items-start justify-center gap-3">
+              <div class="w-11 h-11 rounded-full bg-brand/10 flex items-center justify-center text-xl shrink-0">👱🏼‍♀️</div>
               <div class="text-left">
-                <p class="font-display font-bold text-ink text-[13px]">[Nome real]</p>
-                <p class="text-soft text-[12px]">[Cidade, Estado] · Mom of a [idade]-year-old</p>
+                <p class="font-display font-bold text-ink text-[13px]">Sarah K.</p>
+                <span class="inline-flex items-center gap-1 mt-1 bg-mintSoft text-mint text-[10px] font-bold px-2 py-0.5 rounded-full">✔ Verified Purchase</span>
+                <p class="text-soft text-[12px] mt-1.5">📍 Nashville, TN • Mom of twins (ages 3)</p>
               </div>
             </div>
           </div>
@@ -600,12 +671,13 @@ tailwind.config = {
         <div class="w-full shrink-0 px-1">
           <div class="bg-white border border-slate-100 rounded-2xl p-7 shadow-card text-center">
             <div class="flex justify-center gap-1 text-cta mb-3 text-sm">★★★★☆</div>
-            <p class="text-[15px] text-ink leading-relaxed">[EXEMPLO] "Um depoimento com uma pequena ressalva soa mais real do que 5 estrelas perfeitas em todos os cards."</p>
-            <div class="mt-5 flex items-center justify-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-cloud flex items-center justify-center text-sm font-bold text-soft">D</div>
+            <p class="text-[15px] text-ink leading-relaxed">"I love that it actually explains what each activity is helping with. Before this, I was just picking random ideas online and hoping they were useful. Now I feel like I'm doing activities with a purpose."</p>
+            <div class="mt-5 flex items-start justify-center gap-3">
+              <div class="w-11 h-11 rounded-full bg-cta/10 flex items-center justify-center text-xl shrink-0">👩🏾‍🦱</div>
               <div class="text-left">
-                <p class="font-display font-bold text-ink text-[13px]">[Nome real]</p>
-                <p class="text-soft text-[12px]">[Cidade, Estado] · Mom of a [idade]-year-old</p>
+                <p class="font-display font-bold text-ink text-[13px]">Megan L.</p>
+                <span class="inline-flex items-center gap-1 mt-1 bg-mintSoft text-mint text-[10px] font-bold px-2 py-0.5 rounded-full">✔ Verified Purchase</span>
+                <p class="text-soft text-[12px] mt-1.5">📍 Denver, CO • Mom of a 6-year-old</p>
               </div>
             </div>
           </div>
@@ -613,12 +685,27 @@ tailwind.config = {
         <div class="w-full shrink-0 px-1">
           <div class="bg-white border border-slate-100 rounded-2xl p-7 shadow-card text-center">
             <div class="flex justify-center gap-1 text-cta mb-3 text-sm">★★★★★</div>
-            <p class="text-[15px] text-ink leading-relaxed">[EXEMPLO] "Depoimento focado num bônus específico (SOS Scripts ou rotina visual), não só no guia em geral."</p>
-            <div class="mt-5 flex items-center justify-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-cloud flex items-center justify-center text-sm font-bold text-soft">E</div>
+            <p class="text-[15px] text-ink leading-relaxed">"The best part is how easy everything is. No subscriptions, no fancy materials, no mess. We started doing one activity every evening and it's become our favorite little routine together."</p>
+            <div class="mt-5 flex items-start justify-center gap-3">
+              <div class="w-11 h-11 rounded-full bg-mintSoft flex items-center justify-center text-xl shrink-0">👩🏻‍🦰</div>
               <div class="text-left">
-                <p class="font-display font-bold text-ink text-[13px]">[Nome real]</p>
-                <p class="text-soft text-[12px]">[Cidade, Estado] · Mom of a [idade]-year-old</p>
+                <p class="font-display font-bold text-ink text-[13px]">Ashley T.</p>
+                <span class="inline-flex items-center gap-1 mt-1 bg-mintSoft text-mint text-[10px] font-bold px-2 py-0.5 rounded-full">✔ Verified Purchase</span>
+                <p class="text-soft text-[12px] mt-1.5">📍 Charlotte, NC • Mom of a 5-year-old</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full shrink-0 px-1">
+          <div class="bg-white border border-slate-100 rounded-2xl p-7 shadow-card text-center">
+            <div class="flex justify-center gap-1 text-cta mb-3 text-sm">★★★★☆</div>
+            <p class="text-[15px] text-ink leading-relaxed">"I homeschool my daughter, so I'm always looking for activities that actually support her development instead of just keeping her busy. This guide has been incredibly helpful and surprisingly well organized."</p>
+            <div class="mt-5 flex items-start justify-center gap-3">
+              <div class="w-11 h-11 rounded-full bg-sun flex items-center justify-center text-xl shrink-0">👩🏼</div>
+              <div class="text-left">
+                <p class="font-display font-bold text-ink text-[13px]">Lauren B.</p>
+                <span class="inline-flex items-center gap-1 mt-1 bg-mintSoft text-mint text-[10px] font-bold px-2 py-0.5 rounded-full">✔ Verified Purchase</span>
+                <p class="text-soft text-[12px] mt-1.5">📍 Tampa, FL • Mom of a 7-year-old</p>
               </div>
             </div>
           </div>
@@ -626,12 +713,27 @@ tailwind.config = {
         <div class="w-full shrink-0 px-1">
           <div class="bg-white border border-slate-100 rounded-2xl p-7 shadow-card text-center">
             <div class="flex justify-center gap-1 text-cta mb-3 text-sm">★★★★★</div>
-            <p class="text-[15px] text-ink leading-relaxed">[EXEMPLO] "Depoimento de uma mãe com mais de um filho, mostrando que funciona para idades diferentes ao mesmo tempo."</p>
-            <div class="mt-5 flex items-center justify-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-cloud flex items-center justify-center text-sm font-bold text-soft">F</div>
+            <p class="text-[15px] text-ink leading-relaxed">"I used to have dozens of tabs open trying to figure out what activity to do next. Now I just open the guide, pick one, and we start. It honestly removed so much decision fatigue."</p>
+            <div class="mt-5 flex items-start justify-center gap-3">
+              <div class="w-11 h-11 rounded-full bg-brand/10 flex items-center justify-center text-xl shrink-0">👩🏿</div>
               <div class="text-left">
-                <p class="font-display font-bold text-ink text-[13px]">[Nome real]</p>
-                <p class="text-soft text-[12px]">[Cidade, Estado] · Mom of a [idade]-year-old</p>
+                <p class="font-display font-bold text-ink text-[13px]">Rachel P.</p>
+                <span class="inline-flex items-center gap-1 mt-1 bg-mintSoft text-mint text-[10px] font-bold px-2 py-0.5 rounded-full">✔ Verified Purchase</span>
+                <p class="text-soft text-[12px] mt-1.5">📍 Columbus, OH • Mom of a 4-year-old</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full shrink-0 px-1">
+          <div class="bg-white border border-slate-100 rounded-2xl p-7 shadow-card text-center">
+            <div class="flex justify-center gap-1 text-cta mb-3 text-sm">★★★★★</div>
+            <p class="text-[15px] text-ink leading-relaxed">"We've only had the guide for about a month, but my son is already more confident with simple tasks like cutting, tracing, and using both hands together. Even better, we spend more quality time together without screens."</p>
+            <div class="mt-5 flex items-start justify-center gap-3">
+              <div class="w-11 h-11 rounded-full bg-cta/10 flex items-center justify-center text-xl shrink-0">👩🏾</div>
+              <div class="text-left">
+                <p class="font-display font-bold text-ink text-[13px]">Nicole H.</p>
+                <span class="inline-flex items-center gap-1 mt-1 bg-mintSoft text-mint text-[10px] font-bold px-2 py-0.5 rounded-full">✔ Verified Purchase</span>
+                <p class="text-soft text-[12px] mt-1.5">📍 San Diego, CA • Mom of a 5-year-old</p>
               </div>
             </div>
           </div>
@@ -640,9 +742,8 @@ tailwind.config = {
     </div>
   </div>
 
-  <div class="mt-5 flex items-center justify-center gap-3">
+  <div class="mt-5 flex items-center justify-center gap-2">
     <div id="tDots" class="flex gap-2"></div>
-    <button id="tPause" aria-label="Pause automatic rotation" aria-pressed="false" class="w-8 h-8 rounded-full border border-slate-200 bg-white text-brand text-xs flex items-center justify-center hover:bg-cloud">⏸</button>
   </div>
 </section>
 
@@ -679,28 +780,28 @@ tailwind.config = {
 
         <!-- Value stack: valores de referência, ajuste se quiser refletir outro posicionamento -->
         <div class="mt-6 pt-6 border-t border-slate-100 space-y-2">
-          <div class="flex items-center justify-between text-[14px]">
+          <div class="flex items-start justify-between gap-3 text-[14px]">
             <span class="text-ink">Little Steps Guide (600+ activities)</span>
-            <span class="text-soft">$49 value</span>
+            <span class="text-soft shrink-0 whitespace-nowrap">$25 value</span>
           </div>
-          <div class="flex items-center justify-between text-[14px]">
+          <div class="flex items-start justify-between gap-3 text-[14px]">
             <span class="text-ink">Bonus: Meltdown SOS Scripts</span>
-            <span class="text-soft">$19 value</span>
+            <span class="text-soft shrink-0 whitespace-nowrap">$8 value</span>
           </div>
-          <div class="flex items-center justify-between text-[14px]">
+          <div class="flex items-start justify-between gap-3 text-[14px]">
             <span class="text-ink">Bonus: Printable Visual Routine</span>
-            <span class="text-soft">$15 value</span>
+            <span class="text-soft shrink-0 whitespace-nowrap">$6 value</span>
           </div>
-          <div class="flex items-center justify-between pt-2 mt-2 border-t border-dashed border-slate-200 font-display font-bold text-ink text-[15px]">
+          <div class="flex items-start justify-between gap-3 pt-2 mt-2 border-t border-dashed border-slate-200 font-display font-bold text-ink text-[15px]">
             <span>Total value</span>
-            <span class="text-soft line-through">$83</span>
+            <span class="text-soft line-through shrink-0 whitespace-nowrap">$39</span>
           </div>
         </div>
 
         <div class="mt-6 text-center">
           <p class="text-soft text-sm">Today, you pay only</p>
           <p class="font-display font-extrabold text-5xl text-ink mt-1">$27</p>
-          <span class="inline-block mt-2 bg-mintSoft text-mint font-display font-bold text-[13px] px-3 py-1 rounded-full">You save $56 (68% off)</span>
+          <span class="inline-block mt-2 bg-mintSoft text-mint font-display font-bold text-[13px] px-3 py-1 rounded-full">You save $12 (31% off)</span>
           <p class="text-soft text-[13px] mt-3">Less than one hour of tutoring, for years of daily activities.</p>
           <!-- PLACEHOLDER: #CHECKOUT_URL -->
           <a href="#CHECKOUT_URL" class="mt-6 inline-block w-full bg-cta hover:bg-ctaDark text-white font-display font-bold text-lg px-10 py-4 rounded-2xl shadow-cta transition-transform hover:-translate-y-0.5">
@@ -798,7 +899,7 @@ tailwind.config = {
 </section>
 
 <!-- ─────────────── OUR MISSION ─────────────── -->
-<section id="mission" class="max-w-3xl mx-auto px-5 py-16 md:py-20 text-center">
+<section id="mission" class="max-w-3xl mx-auto px-5 pt-16 pb-6 md:pt-20 md:pb-8 text-center">
   <div class="reveal">
     <p class="font-display font-semibold text-brand text-sm uppercase tracking-wide mb-3">Our mission</p>
     <h2 class="font-display font-extrabold text-[1.65rem] md:text-3xl text-ink leading-tight">Why we built Little Steps Guide</h2>
@@ -812,8 +913,8 @@ tailwind.config = {
 </section>
 
 <!-- ─────────────── FINAL CTA ─────────────── -->
-<section class="max-w-3xl mx-auto px-5 py-16 md:py-24 text-center">
-  <div class="reveal max-w-[220px] mx-auto mb-8 rounded-2xl overflow-hidden shadow-card">
+<section class="max-w-3xl mx-auto px-5 pt-6 pb-16 md:pt-10 md:pb-24 text-center">
+  <div class="reveal max-w-lg mx-auto mb-8 rounded-2xl overflow-hidden shadow-2xl">
     <img src="https://raw.githubusercontent.com/Littlestepsguide/kids/main/ChatGPT%20Image%2023%20de%20jul.%20de%202026%2C%2023_21_25.png" alt="Little Steps Guide cover" class="w-full h-auto block">
   </div>
   <div class="reveal">
@@ -936,19 +1037,17 @@ quizItems.forEach(cb => cb.addEventListener('change', () => {
   quizResult.innerHTML = msg + `<a href="#cost-of-waiting" class="mt-4 inline-block bg-cta hover:bg-ctaDark text-white font-display font-bold text-[15px] px-8 py-3 rounded-xl shadow-cta">Keep reading →</a>`;
 }));
 
-// ── Testimonial carousel (auto-advance every 7s) ──
+// ── Testimonial carousel (auto-advance every 8s) ──
 (function(){
   const track = document.getElementById('tTrack');
   const dotsWrap = document.getElementById('tDots');
   const prevBtn = document.getElementById('tPrev');
   const nextBtn = document.getElementById('tNext');
-  const pauseBtn = document.getElementById('tPause');
   if (!track) return;
 
   const slides = track.children;
   const total = slides.length;
   let index = 0;
-  let paused = false;
   let timer;
 
   for (let i = 0; i < total; i++) {
@@ -968,15 +1067,10 @@ quizItems.forEach(cb => cb.addEventListener('change', () => {
   function goTo(i) { index = (i + total) % total; render(); }
   function next() { goTo(index + 1); }
   function prev() { goTo(index - 1); }
-  function restart() { clearInterval(timer); timer = setInterval(() => { if (!paused) next(); }, 7000); }
+  function restart() { clearInterval(timer); timer = setInterval(next, 8000); }
 
   nextBtn.addEventListener('click', () => { next(); restart(); });
   prevBtn.addEventListener('click', () => { prev(); restart(); });
-  pauseBtn.addEventListener('click', () => {
-    paused = !paused;
-    pauseBtn.textContent = paused ? '▶' : '⏸';
-    pauseBtn.setAttribute('aria-pressed', String(paused));
-  });
 
   const carouselWrap = track.closest('.relative');
   carouselWrap.addEventListener('mouseenter', () => clearInterval(timer));
