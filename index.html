@@ -599,7 +599,7 @@ tailwind.config = {
 <section class="bg-ink text-white">
   <div class="max-w-3xl mx-auto px-5 py-16 md:py-20 text-center">
     <p class="reveal font-display font-semibold text-white/60 text-sm uppercase tracking-wide mb-3">From a real mom</p>
-    <h2 class="reveal font-display font-extrabold text-[1.65rem] md:text-3xl leading-tight">"Here's what parents have shared after using Little Steps Guide."</h2>
+    <h2 class="reveal font-display font-extrabold text-[1.65rem] md:text-3xl leading-tight">"I wish I'd found this a year ago"</h2>
     <div class="reveal mt-8 mx-auto max-w-[380px] aspect-[9/16] rounded-2xl overflow-hidden bg-white/10 shadow-2xl">
       <iframe src="https://player.vimeo.com/video/1212756738?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" class="w-full h-full" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" allowfullscreen title="Watch: a real mom's experience with Little Steps Guide"></iframe>
     </div>
@@ -613,7 +613,11 @@ tailwind.config = {
      o Facebook derruba anúncio e conta por isso. -->
 <section class="max-w-2xl mx-auto px-5 py-16 md:py-20">
   <div class="reveal text-center mb-10">
-    <h2 class="font-display font-extrabold text-[1.65rem] md:text-4xl text-ink leading-tight">Here's What Other Moms Had to Say</h2>
+    <h2 class="font-display font-extrabold text-[1.65rem] md:text-4xl text-ink leading-tight">Moms are seeing the difference</h2>
+    <p class="mt-2 text-soft text-[13px]">
+      <!-- ⚠️ Slides abaixo são um TEMPLATE. Troque por depoimentos reais de clientes (com permissão) antes de publicar o anúncio. -->
+      [EXEMPLO DE ESTRUTURA: substitua os 8 depoimentos por avaliações reais antes de publicar]
+    </p>
   </div>
 
   <div class="reveal relative">
@@ -930,17 +934,47 @@ tailwind.config = {
 
 <!-- ─────────────── FOOTER ─────────────── -->
 <footer class="bg-ink text-white/60">
-  <div class="max-w-5xl mx-auto px-5 py-10 text-center text-[13px]">
-    <p class="font-display font-bold text-white text-base mb-2">Little Steps Guide</p>
-    <p class="max-w-xl mx-auto leading-relaxed">This site is not part of Facebook or Meta Platforms, Inc. Results vary from child to child. This guide is educational and is not a substitute for professional evaluation or therapy.</p>
-    <div class="mt-5 flex flex-wrap justify-center gap-x-6 gap-y-2">
-      <a href="#mission" class="underline hover:text-white">Our Mission</a>
-      <a href="#faq" class="underline hover:text-white">FAQ</a>
-      <button onclick="openModal('modal-contact')" class="underline hover:text-white">Contact</button>
-      <button onclick="openModal('modal-privacy')" class="underline hover:text-white">Privacy Policy</button>
-      <button onclick="openModal('modal-terms')" class="underline hover:text-white">Terms of Use</button>
+  <div class="max-w-5xl mx-auto px-5 pt-16 pb-8">
+    <div class="grid sm:grid-cols-3 gap-10 sm:gap-8 text-center sm:text-left">
+      <div>
+        <p class="font-display font-bold text-white text-lg mb-2">Little Steps Guide</p>
+        <p class="text-[13px] leading-relaxed max-w-xs mx-auto sm:mx-0">Helping parents raise focused, confident, and capable kids through simple, screen-free activities that take just 10 minutes a day.</p>
+      </div>
+      <div>
+        <p class="font-display font-semibold text-white text-[12px] uppercase tracking-wide mb-3">Company</p>
+        <ul class="space-y-2 text-[13px]">
+          <li><button onclick="openModal('modal-about')" class="hover:text-white transition-colors">About Little Steps Guide</button></li>
+          <li><a href="#mission" class="hover:text-white transition-colors">Our Mission</a></li>
+          <li><button onclick="openModal('modal-contact')" class="hover:text-white transition-colors">Contact Us</button></li>
+          <li><a href="#faq" class="hover:text-white transition-colors">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-display font-semibold text-white text-[12px] uppercase tracking-wide mb-3">Support</p>
+        <ul class="space-y-2 text-[13px]">
+          <li><button onclick="openModal('modal-refund')" class="hover:text-white transition-colors">Refund Policy</button></li>
+          <li><button onclick="openModal('modal-privacy')" class="hover:text-white transition-colors">Privacy Policy</button></li>
+          <li><button onclick="openModal('modal-terms')" class="hover:text-white transition-colors">Terms of Use</button></li>
+        </ul>
+      </div>
     </div>
-    <p class="mt-5">© 2026 Little Steps Guide. All rights reserved.</p>
+
+    <div class="mt-10 pt-8 border-t border-white/10 text-center">
+      <p class="text-[13px]">Email us anytime: <a href="mailto:support@getlittlestepsguide.com" class="text-white hover:underline">support@getlittlestepsguide.com</a></p>
+      <p class="text-white/40 text-[12px] mt-1">Response within 24 business hours.</p>
+    </div>
+
+    <div class="mt-6 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[12px]">
+      <span class="flex items-center gap-1.5"><span class="text-mint">✓</span> Instant Digital Download</span>
+      <span class="flex items-center gap-1.5"><span class="text-mint">✓</span> Secure Checkout</span>
+      <span class="flex items-center gap-1.5"><span class="text-mint">✓</span> 30-Day Money-Back Guarantee</span>
+      <span class="flex items-center gap-1.5"><span class="text-mint">✓</span> Trusted by Thousands of Parents</span>
+    </div>
+
+    <div class="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-[12px] text-center sm:text-left">
+      <p>© 2026 Little Steps Guide. All rights reserved.</p>
+      <p class="text-white/40 max-w-md sm:text-right">Results vary from child to child. This guide is educational and is not a substitute for professional evaluation or therapy.</p>
+    </div>
   </div>
 </footer>
 
@@ -961,7 +995,7 @@ tailwind.config = {
       <p><strong class="text-ink">Your rights.</strong> You can ask us to access, correct or delete your personal information at any time by emailing us at the address below.</p>
       <p><strong class="text-ink">Children's privacy.</strong> This site and checkout are intended for use by adults. We do not knowingly collect personal information directly from children.</p>
       <p><strong class="text-ink">Changes.</strong> We may update this policy from time to time; the "last updated" date above will reflect the most recent revision.</p>
-      <p><strong class="text-ink">Contact.</strong> Questions about this policy? Email us at <a href="mailto:littlestepsguide.official@outlook.com" class="text-brand underline">littlestepsguide.official@outlook.com</a>.</p>
+      <p><strong class="text-ink">Contact.</strong> Questions about this policy? Email us at <a href="mailto:support@getlittlestepsguide.com" class="text-brand underline">support@getlittlestepsguide.com</a>.</p>
     </div>
   </div>
 </div>
@@ -982,7 +1016,7 @@ tailwind.config = {
       <p><strong class="text-ink">Educational purpose.</strong> Little Steps Guide is an educational resource. It is not a substitute for professional medical, psychological, or occupational therapy advice. Individual results vary.</p>
       <p><strong class="text-ink">Intellectual property.</strong> All content in the guide is owned by Little Steps Guide and protected by copyright. All rights not expressly granted here are reserved.</p>
       <p><strong class="text-ink">Limitation of liability.</strong> Little Steps Guide is provided "as is." We are not liable for indirect or incidental damages arising from the use of this guide.</p>
-      <p><strong class="text-ink">Contact.</strong> Questions about these terms? Email us at <a href="mailto:littlestepsguide.official@outlook.com" class="text-brand underline">littlestepsguide.official@outlook.com</a>.</p>
+      <p><strong class="text-ink">Contact.</strong> Questions about these terms? Email us at <a href="mailto:support@getlittlestepsguide.com" class="text-brand underline">support@getlittlestepsguide.com</a>.</p>
     </div>
   </div>
 </div>
@@ -994,9 +1028,38 @@ tailwind.config = {
     <h3 class="font-display font-extrabold text-xl text-ink mb-4">Contact Us</h3>
     <div class="text-soft text-[14px] leading-relaxed space-y-3">
       <p>Have a question before you buy, or need help after your purchase? We're happy to help.</p>
-      <p><strong class="text-ink">Email:</strong> <a href="mailto:littlestepsguide.official@outlook.com" class="text-brand underline">littlestepsguide.official@outlook.com</a></p>
-      <p><strong class="text-ink">Response time:</strong> We typically reply within 1 business day.</p>
+      <p><strong class="text-ink">Email:</strong> <a href="mailto:support@getlittlestepsguide.com" class="text-brand underline">support@getlittlestepsguide.com</a></p>
+      <p><strong class="text-ink">Response time:</strong> We typically reply within 24 business hours.</p>
       <p>This includes access issues, refund requests, or general questions about the guide. Just send us an email and we'll take it from there.</p>
+    </div>
+  </div>
+</div>
+
+<div id="modal-about" class="fixed inset-0 z-50 hidden items-center justify-center p-4">
+  <div class="absolute inset-0 bg-ink/60" onclick="closeModal('modal-about')"></div>
+  <div class="relative bg-white rounded-3xl max-w-lg w-full max-h-[80vh] overflow-y-auto p-7">
+    <button onclick="closeModal('modal-about')" class="absolute top-4 right-4 text-soft hover:text-ink text-xl">✕</button>
+    <h3 class="font-display font-extrabold text-xl text-ink mb-4">About Little Steps Guide</h3>
+    <div class="text-soft text-[14px] leading-relaxed space-y-3">
+      <p>We believe meaningful learning doesn't require expensive toys, complicated programs, or hours of preparation.</p>
+      <p>Little Steps Guide was created to help busy parents confidently support their child's development through simple, engaging activities that fit into everyday family life. Every activity is organized by age, designed to be easy to follow, and inspired by decades of child development research.</p>
+      <p class="pt-2 border-t border-slate-100"><strong class="text-ink">Our mission is simple:</strong><br>Make quality learning accessible to every family, one activity at a time.</p>
+    </div>
+  </div>
+</div>
+
+<div id="modal-refund" class="fixed inset-0 z-50 hidden items-center justify-center p-4">
+  <div class="absolute inset-0 bg-ink/60" onclick="closeModal('modal-refund')"></div>
+  <div class="relative bg-white rounded-3xl max-w-lg w-full max-h-[80vh] overflow-y-auto p-7">
+    <button onclick="closeModal('modal-refund')" class="absolute top-4 right-4 text-soft hover:text-ink text-xl">✕</button>
+    <h3 class="font-display font-extrabold text-xl text-ink mb-4">Refund Policy</h3>
+    <div class="text-soft text-[14px] leading-relaxed space-y-3">
+      <p class="text-ink/70 text-[12px]">Last updated: July 2026</p>
+      <p>We want you to feel completely confident in your purchase of Little Steps Guide.</p>
+      <p><strong class="text-ink">30-day money-back guarantee.</strong> Use the guide with your child for up to 30 days after purchase. If you're not satisfied for any reason, email us and we'll refund you in full, no questions asked.</p>
+      <p><strong class="text-ink">How to request a refund.</strong> Send us an email at the address below with the email you used at checkout. We'll confirm your refund as soon as it's processed.</p>
+      <p><strong class="text-ink">After 30 days.</strong> We're unable to offer refunds once the 30-day window has passed.</p>
+      <p><strong class="text-ink">Contact.</strong> Questions about a refund? Email us at <a href="mailto:support@getlittlestepsguide.com" class="text-brand underline">support@getlittlestepsguide.com</a>.</p>
     </div>
   </div>
 </div>
@@ -1087,7 +1150,7 @@ quizItems.forEach(cb => cb.addEventListener('change', () => {
 // ── Modals ──
 function openModal(id){ const m = document.getElementById(id); m.classList.remove('hidden'); m.classList.add('flex'); document.body.style.overflow='hidden'; }
 function closeModal(id){ const m = document.getElementById(id); m.classList.add('hidden'); m.classList.remove('flex'); document.body.style.overflow=''; }
-document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeModal('modal-privacy'); closeModal('modal-terms'); } });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') { ['modal-privacy','modal-terms','modal-contact','modal-about','modal-refund'].forEach(closeModal); } });
 </script>
 
 </body>
